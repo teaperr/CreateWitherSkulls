@@ -1,3 +1,6 @@
 {
-  "item.createwitherskulls.coal_dust": "Coal Dust"
+  "item.createwitherskulls.coal_dust": "Coal Dust",
+  "item.createwitherskulls.embers": "Embers",
+  "block.createwitherskulls.coal_dust_block": "Coal Dust Block",
+  "block.createwitherskulls.ember_block": "Ember Block"
 }
