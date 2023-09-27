@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createwitherskulls:ember_block"
+    }
+  ],
+  "result": {
+    "item": "createwitherskulls:embers",
+    "count": 9
+  }
+}

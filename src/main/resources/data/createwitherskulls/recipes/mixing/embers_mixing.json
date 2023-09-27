@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "createwitherskulls:coal_dust"
+    },
+    {
+      "item": "createwitherskulls:coal_dust"
+    },
+    {
+      "item": "createwitherskulls:coal_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "createwitherskulls:embers"
+    }
+  ]
+}

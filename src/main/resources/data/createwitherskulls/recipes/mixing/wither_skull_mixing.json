@@ -1,0 +1,55 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createwitherskulls:embers"
+    },
+    {
+      "item": "createwitherskulls:embers"
+    },
+    {
+      "item": "createwitherskulls:embers"
+    },
+    {
+      "item": "createwitherskulls:embers"
+    },
+    {
+      "item": "createwitherskulls:embers"
+    },
+    {
+      "item": "createwitherskulls:embers"
+    },
+    {
+      "item": "createwitherskulls:embers"
+    },
+    {
+      "item": "createwitherskulls:embers"
+    },
+    {
+      "item": "createwitherskulls:embers"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "amount": 2100,
+      "fluid": "create:potion",
+      "nbt": {
+        "Bottle": "REGULAR",
+        "Potion": "minecraft:harming"
+      }
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.75,
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ]
+}
