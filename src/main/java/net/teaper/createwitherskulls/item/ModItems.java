@@ -10,7 +10,7 @@ import net.teaper.createwitherskulls.CreateWitherSkulls;
 public class ModItems {
     public static final Item COAL_DUST = registerItem("coal_dust",
             new Item (new FabricItemSettings().group(ItemGroup.MATERIALS)));
-    public static final Item EMBERS = registerItem("embers",
+    public static final Item EMBER = registerItem("ember",
             new Item (new FabricItemSettings().group(ItemGroup.MATERIALS)));
 
     private static Item registerItem(String name, Item item) {

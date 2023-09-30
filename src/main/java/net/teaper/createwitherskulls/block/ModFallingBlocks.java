@@ -13,11 +13,16 @@ import net.teaper.createwitherskulls.CreateWitherSkulls;
 
 import static net.minecraft.util.registry.Registry.register;
 
-public class ModBlocks {
+public class ModFallingBlocks extends FallingBlock{
+
     public static final Block COAL_DUST_BLOCK = registerBlock("coal_dust_block",
-            new Block(FabricBlockSettings.of(Material.AGGREGATE).strength(0.5f).sounds(BlockSoundGroup.SAND)), ItemGroup.BUILDING_BLOCKS);
+            new FallingBlock(FabricBlockSettings.of(Material.AGGREGATE).strength(0.5f).sounds(BlockSoundGroup.SAND)), ItemGroup.BUILDING_BLOCKS);
     public static final Block EMBER_BLOCK = registerBlock("ember_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(0.5f).sounds(BlockSoundGroup.SAND).luminance(1)), ItemGroup.BUILDING_BLOCKS);
+            new FallingBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).sounds(BlockSoundGroup.SAND).luminance(1)), ItemGroup.BUILDING_BLOCKS);
+    public ModFallingBlocks(Settings settings) {
+        super(settings);
+    }
+
     private static Block registerBlock(String name, Block block, ItemGroup itemGroup) {
         registerBlockItem(name, block, itemGroup);
         return register(Registry.BLOCK, new Identifier(CreateWitherSkulls.MOD_ID, name), block);
