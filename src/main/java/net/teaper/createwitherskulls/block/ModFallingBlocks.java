@@ -18,7 +18,7 @@ public class ModFallingBlocks extends FallingBlock{
     public static final Block COAL_DUST_BLOCK = registerBlock("coal_dust_block",
             new FallingBlock(FabricBlockSettings.of(Material.AGGREGATE).strength(0.5f).sounds(BlockSoundGroup.SAND)), ItemGroup.BUILDING_BLOCKS);
     public static final Block EMBER_BLOCK = registerBlock("ember_block",
-            new FallingBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).sounds(BlockSoundGroup.SAND).luminance(1)), ItemGroup.BUILDING_BLOCKS);
+            new FallingBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).sounds(BlockSoundGroup.SAND).luminance(3)), ItemGroup.BUILDING_BLOCKS);
     public ModFallingBlocks(Settings settings) {
         super(settings);
     }
