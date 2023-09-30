@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "createwitherskulls",
   "version": "${version}",
-  "name": "CreateWitherSkulls",
+  "name": "Create Wither Skulls",
   "description": "An addon for create that adds automation to wither skulls.",
   "authors": [
     "teaper_"
@@ -24,6 +24,7 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "create": ">=0.5.1-b-build.1089+mc1.19.2"
   }
 }
